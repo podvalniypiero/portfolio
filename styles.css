@@ -1,0 +1,126 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: #070707;
+}
+
+body{
+    background: #FFFFFF;
+    margin: 0;
+}
+    
+
+ul{
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ font-size: 18px;
+ padding-bottom: 54px;
+
+}    
+header li{
+    cursor: pointer;
+    color: #828282;
+}
+header li:hover{
+    color: black;
+}
+.header-home{
+    padding-left: 296px;
+}
+.header-contacts{
+    padding-right: 200px;
+}
+hr{
+    width: 960px;
+    color: #828282;
+}
+
+.container .name{
+    font-size: 47.34px;
+    padding-left: 300px;
+}
+.container .info{
+padding-top: 125px;
+}
+.container .lang span {
+    color: #828282;
+    font-weight: 16px;
+}
+.container .lang{
+    padding-top: 93px;
+    writing-mode: vertical-rl;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 200px;
+}
+.photo .photo-background{
+    position: absolute;
+    width: 937.6px;
+    height: 505.93px;
+    left: 270.71px;
+    top: 362.18px;
+    background: #090909;
+}
+.photo .photo-img{
+    position: absolute;
+    width: 613px;
+    height: 579px;
+    left: 434px;
+    top: 473px;
+
+}
+#aboutMe{
+    position: absolute;
+    width: 100%;
+    height: 627.51px;
+    top: 1019px;
+    background: #F6F6F6;
+}
+.aboutMe-h{
+    
+    margin-top: 162px;
+}
+
+.aboutMe-par{
+    font-size: 18px;
+    color: #070707;
+    line-height: 24px;
+
+    width: 485.34px;
+    height: 270.35px;
+    margin-left: 500px;
+    margin-top: 39px;
+    margin-bottom: 160px;
+}
+
+#skills{
+    position: absolute;
+    width: 100%;
+    top: 1647px;
+    
+}
+
+.skills-h{
+    margin-top: 162px;
+    margin-bottom: 82px;
+    
+}
+.skills-par{
+    text-align: center;
+    margin-bottom: 106px;
+}
+.skills-list{
+    
+}
+.nav{
+    font-size: 34px;
+    text-align: center;
+    
+}
