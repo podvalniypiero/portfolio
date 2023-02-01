@@ -17,11 +17,16 @@ ul{
  justify-content: space-evenly;
  font-size: 18px;
  padding-bottom: 54px;
+ text-decoration: none;
 
 }    
 header li{
     cursor: pointer;
     color: #828282;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
 }
 header li:hover{
     color: black;
