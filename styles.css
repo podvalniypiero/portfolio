@@ -262,7 +262,7 @@ padding-top: 125px;
     .photo .photo-background{
         width: 230px;
         height: 506px;
-        left: 196;
+        left: 196px;
     }
     .photo .photo-img{
         position: absolute;
@@ -307,4 +307,81 @@ padding-top: 125px;
         margin-left: 32%;
     }
 
+}
+
+@media all and (max-width: 500px){
+    *{
+        font-size: 14px;
+    }
+    hr{
+        width: 65%;
+    }
+    header {
+        margin-top: 45px;
+        font-size: 18px;
+        
+    }
+    .photo .photo-background{
+        margin-top: 20px;
+        width: 230px;
+        height: 506px;
+        left: 50px;
+    }
+    .photo .photo-img{
+        position: absolute;
+        width: 278px;
+        height: 266px;
+        left: 100px;
+    }
+    .container .name{
+        font-size: 27px;
+    }
+    header .header-home{
+        padding-left: 30px;
+
+    }
+    .header-contacts{
+        padding-right: 40px;
+    }
+    .aboutMe-par{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #portfolio{
+        height: auto;
+        margin-bottom: 70px;
+    }
+    
+    #contacts{
+        top: 5292px;
+    }
+    .contacts-h{
+        margin-top: 10px;
+        margin-bottom: 92px;
+    }
+    
+    #contacts button{
+        margin-top: 72px;
+        margin-bottom: 102px;
+        font-size: 18px;
+        width: 45%;
+        margin-left: 135px;
+    }
+    #contacts-svg {
+        margin-left: 20%;
+    }
+    #portfolio button {
+        margin-left: 25%;
+        padding: 15px;
+    }
+    #aboutMe-par{
+        margin-right: 10px;
+
+    }
+    .uni{
+        display: none;
+    }
+    #portfolio{
+        top: 2302px;
+    }
 }
