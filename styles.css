@@ -173,7 +173,7 @@ padding-top: 125px;
     width: 45%;
     margin-left: 28%;
 }
-#portfolio button {
+#btn{
     cursor: pointer;
     text-decoration: none;
     margin-left: 47%;
@@ -188,11 +188,39 @@ padding-top: 125px;
     color: #FFFFFF;
     
 }
-#portfolio button:hover{
+#btn:hover{
     background-color: white;
     color: #070707;
 }
 
 #portfolio .portfolio-item {
 
+}
+
+#contacts{
+    position: absolute;
+    width: 1448px;
+    height: 848px;
+    top: 8842px;
+    background: #FFFFFF;
+}
+.contacts-h{
+    margin-top: 124px;
+    margin-bottom: 92px;
+}
+.contacts-par{
+    text-align: center;
+
+}
+#contacts button{
+    margin-top: 72px;
+    margin-bottom: 102px;
+}
+
+.contacts-svg{
+    margin-bottom: 78px;
+}
+.author{
+    font-size: 16px;
+    margin-bottom: 128px;
 }
