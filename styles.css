@@ -53,14 +53,20 @@ padding-top: 125px;
 .container .lang span {
     color: #828282;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
+    cursor: pointer;
+    
 }
 .container .lang{
     padding-top: 93px;
     writing-mode: vertical-rl;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
     cursor: pointer;
+   
+}
+.container a{
+    text-decoration: none;
 }
 
 .container {
@@ -273,8 +279,11 @@ padding-top: 125px;
     .container .name{
         font-size: 30px;
     }
+    header{
+        margin-top: 60px;
+    }
     header .header-home{
-        padding-left: 96px;
+        padding-left: 50px;
     }
     .aboutMe-par{
         margin-left: 130px;
@@ -321,8 +330,12 @@ padding-top: 125px;
     }
     header {
         margin-top: 45px;
-        font-size: 18px;
         
+        
+    }
+    header li{
+        margin-left: 10px;
+        font-size: 14px;
     }
     .photo .photo-background{
         margin-top: 20px;
@@ -340,16 +353,21 @@ padding-top: 125px;
         font-size: 27px;
     }
     header .header-home{
-        padding-left: 30px;
+        padding-left: 0px;
 
     }
     .header-contacts{
-        padding-right: 40px;
+        padding-right: 0px;
+    }
+    #aboutMe{
+        height: auto;
+        margin-bottom: 45px;
     }
     .aboutMe-par{
         margin-left: 20px;
         margin-right: 20px;
         width: auto;
+        
     }
     #portfolio{
         height: auto;
