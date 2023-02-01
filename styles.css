@@ -245,19 +245,3 @@ padding-top: 125px;
     margin-bottom: 78px;
 }
 
-#bubbles .g{
-    background-color: #F6F6F6;
-}
-#bubbles .b{
-    background-color: #828282
-}
-#bubbles .gb{
-    background-color:#ff5e2d;
-}
-#bubbles .boxes{
-    width: 40px;
-    height: 40px;
-    border-radius: 80%;
-    display: inline-block;
-    margin: 10px;
-}
