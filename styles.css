@@ -61,21 +61,22 @@ padding-top: 125px;
     display: flex;
     justify-content: space-evenly;
     padding-right: 200px;
+   
 }
 .photo .photo-background{
     position: absolute;
     width: 937.6px;
-    height: 505.93px;
+    height: 400px;
     left: 270.71px;
-    top: 362.18px;
+    top: 400px;
     background: #090909;
 }
 .photo .photo-img{
     position: absolute;
-    width: 613px;
-    height: 579px;
+    width: 490px;
+    height: 470px;
     left: 434px;
-    top: 473px;
+    top: 500px;
 
 }
 #aboutMe{
@@ -242,4 +243,21 @@ padding-top: 125px;
     column-gap: 82px;
     margin-left: 42%;
     margin-bottom: 78px;
+}
+
+#bubbles .g{
+    background-color: #F6F6F6;
+}
+#bubbles .b{
+    background-color: #828282
+}
+#bubbles .gb{
+    background-color:#ff5e2d;
+}
+#bubbles .boxes{
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    display: inline-block;
+    margin: 10px;
 }
