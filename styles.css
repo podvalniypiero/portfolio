@@ -283,6 +283,9 @@ padding-top: 125px;
         height: auto;
         margin-bottom: 70px;
     }
+    #portfolio button{
+        margin-left: 39%;
+    }
     
     #contacts{
         position: absolute;
@@ -346,6 +349,7 @@ padding-top: 125px;
     .aboutMe-par{
         margin-left: 20px;
         margin-right: 20px;
+        width: auto;
     }
     #portfolio{
         height: auto;
@@ -354,10 +358,15 @@ padding-top: 125px;
     
     #contacts{
         top: 5292px;
+        height: auto;
     }
     .contacts-h{
         margin-top: 10px;
         margin-bottom: 92px;
+    }
+    .contacts-par{
+        margin-left: 15%;
+        margin-right: 15%;
     }
     
     #contacts button{
@@ -365,10 +374,11 @@ padding-top: 125px;
         margin-bottom: 102px;
         font-size: 18px;
         width: 45%;
-        margin-left: 135px;
+        margin-left: 120px;
     }
     #contacts-svg {
-        margin-left: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     #portfolio button {
         margin-left: 25%;
@@ -383,5 +393,13 @@ padding-top: 125px;
     }
     #portfolio{
         top: 2302px;
+    }
+    .author{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .skills-list-more{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
