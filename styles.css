@@ -386,6 +386,7 @@ padding-top: 125px;
         margin-bottom: 70px;
     }
     
+    
     #contacts{
         top: 5292px;
         height: auto;
@@ -413,6 +414,7 @@ padding-top: 125px;
     #portfolio button {
         
         padding: 15px;
+        left: 60%;
     }
     #aboutMe-par{
         margin-right: 10px;
