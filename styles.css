@@ -44,7 +44,7 @@ header li:hover{
     padding-right: 200px;
 }
 hr{
-    width: 77%;
+    width: 960px;
     color: #828282;
 }
 
@@ -118,7 +118,6 @@ padding-top: 125px;
     margin-left: 500px;
     margin-top: 39px;
     margin-bottom: 160px;
-    text-align: center;
 }
 
 #skills{
@@ -269,10 +268,9 @@ padding-top: 125px;
         font-size: 14px;
     }
     hr{
-        width: 65%;
+        width: 45%;
     }
     .photo .photo-background{
-        margin-top: 50px;
         width: 230px;
         height: 506px;
         left: 196px;
@@ -290,11 +288,7 @@ padding-top: 125px;
         margin-top: 60px;
     }
     header .header-home{
-        padding-left: 0;
-        margin-left: 270px;
-    }
-    header li{
-        margin-right: 50px;
+        padding-left: 50px;
     }
     .aboutMe-par{
         margin-left: 130px;
