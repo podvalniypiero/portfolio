@@ -273,14 +273,14 @@ padding-top: 125px;
     }
     .photo .photo-background{
         width: 34%;
-        height: 35%;
+        height: 40%;
         left: 25%;
         top: 480px;
         
     }
     .photo .photo-img{
         top: 550px;
-        width: 45%;
+        width: 40%;
         height: 33%;
         left:35%;
     }
@@ -353,7 +353,7 @@ padding-top: 125px;
     }
     .photo .photo-img{
         
-        width: 65%;
+        width: 60%;
         height: 30%;
         left: 20%;
     }
@@ -427,5 +427,21 @@ padding-top: 125px;
     .skills-list-more{
         margin-left: 10%;
         margin-right: 10%;
+    }
+}
+
+@media all and (max-width: 360px){
+    .photo .photo-background{
+        top: 50%;
+        width: 40%;
+        height: 73%;
+        left: 10%;
+    }
+    .photo .photo-img{
+        
+        width: 60%;
+        height: 30%;
+        left: 20%;
+        top: 70%;
     }
 }
