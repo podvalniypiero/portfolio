@@ -21,17 +21,21 @@ ul{
  text-decoration: none;
 
 }    
+
 header li{
     cursor: pointer;
     color: #828282;
-    text-decoration: none;
+    font-size: 20px;
     font-weight: 400;
+    
 }
 header a{
     text-decoration: none;
 }
 header li:hover{
+    
     color: black;
+    font-weight: 500;
 }
 .header-home{
     padding-left: 296px;
